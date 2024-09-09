@@ -1,0 +1,44 @@
+.listItem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.listHeader h2 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.listItem p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.listActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editBtn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editBtn {
+  background-color: #28a745;
+}
+
+.editBtn:hover {
+  background-color: #218838;
+}
