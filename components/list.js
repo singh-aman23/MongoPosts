@@ -4,7 +4,7 @@ import Remove from "./remove";
 
 async function getTopics() {
   try {
-    const res = await fetch("http://localhost:3000/api/topic", {
+    const res = await fetch("/api/topic", {
       cache: "no-store",
     });
     if (!res.ok) {

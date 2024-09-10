@@ -8,7 +8,7 @@ export default function Remove({ id }) {
     const confirmed = confirm("Are you Sure you want to delete the topic?");
 
     if (confirmed) {
-      const res = await fetch(`http://localhost:3000/api/topic?id=${id}`, {
+      const res = await fetch(`/api/topic?id=${id}`, {
         method: "DELETE",
       });
       if (res.ok) {
